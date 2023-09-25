@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Contoh Console.log() JavaScript</title>
+</head>
+<body>
+    <h1>Selamat datang di halaman web ini!</h1>
+    <p id="paragraf">Ini adalah contoh teks. Klik tombol untuk mengubahnya</p>
+    <button onclick="ubahteks()">klik untuk menampilkan teks</button>
+   <script>
+    function ubahteks() {
+        var paragrafElemen = document.getElementById("paragraf");
+        paragrafElemen.innerHTML = "Teks telah diubah menggunakan innerHTML";
+
+    }
+    </script>
+</body>
+</html>
